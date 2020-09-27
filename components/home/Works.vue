@@ -85,4 +85,35 @@ export default {
             }
         }
     }
+
+    @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+        .works {
+           .content-works {
+                margin-top: 30px;
+                height: 100%;
+                // object-fit: cover;
+                // background-image: linear-gradient(to right, #3093C6 0%, #116D94 100%);
+                .list-items {
+                    padding: 70px 5px;
+                    display: flex;
+                    justify-content: space-between;
+                    .item {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        img {
+                            width: 50px;
+                            height: 50px;
+                        }
+                        h3 {
+                            margin-top: 15px;
+                            font-size: 15px;
+                            color: $colorPrimary;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
 </style>

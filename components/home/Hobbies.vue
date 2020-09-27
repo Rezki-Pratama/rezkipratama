@@ -1,6 +1,6 @@
 <template>
   <div class="hobbies" ref="hobbies">
-      <div class="container mx-auto px-20 content-hobbies">
+      <div class="container mx-auto md:px-20 content-hobbies">
         <div class="title-hobbies">
           <h1>Hobbies</h1>
           <div class="underline-hobbies"></div>
@@ -82,7 +82,7 @@ export default {
 
     .hobbies {
         .content-hobbies {
-            padding-top: 50px;
+            padding-top: 100px;
             width: 100%;
             height: max-content;
             .title-hobbies {
@@ -121,10 +121,12 @@ export default {
                     h2 {
                         width: 45%; 
                         font-size: 35px;
+                        font-weight: bold;
                     }
 
                     p {
                         width: 45%;
+                        font-size: 25px;
                     }
                 }
 
@@ -165,10 +167,12 @@ export default {
                     h2 {
                         width: 70%; 
                         font-size: 35px;
+                        font-weight: bold;
                     }
 
                     p {
                         width: 70%;
+                        font-size: 25px;
                     }
                 }
 
@@ -182,5 +186,82 @@ export default {
                 }
             }
         }
+    }
+
+    @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+       .hobbies {
+            .content-hobbies {
+                .title-hobbies {
+                    padding: 0px 10px;
+                }
+                
+                .football {
+                    margin-top: 70px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .playing {
+                        margin-bottom: 0px;
+                        width: 100%;
+                        padding: 0px 10px;
+                        align-items: flex-start;
+
+                        h2 {
+                            width: 100%; 
+                            font-size: 30px;
+                            font-weight: bold;
+                        }
+
+                        p {
+                            width: 100%;
+                            font-size: 20px;
+                        }
+                    }
+
+
+
+                    .content-football {
+                        margin-top: 0px;
+                        .man-soccer {
+                            width: 400px;
+                            height: 300px;
+                        }
+
+                        .ball {
+                            display: none;
+                        }
+                    }
+                }
+
+                .play-games {
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .games {
+                        width: 100%;
+                        padding: 0px 10px;
+                        flex-direction: column;
+                        align-items: center;
+
+                        h2 {
+                            width: 100%; 
+                            font-size: 30px;
+                            font-weight: bold;
+                        }
+
+                        p {
+                            width: 100%;
+                            font-size: 20px;
+                        }
+                    }
+
+                    .content-games {
+                        .man-games {
+                            width: 550px;
+                            height: 250px; 
+                        }
+                    }
+                }
+            }
+       } 
     }
 </style>

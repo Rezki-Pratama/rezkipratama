@@ -1,7 +1,7 @@
 <template>
   <div class="project">
       <Navbar/>
-      <div class="container mx-auto px-20 flex content ">
+      <div class="container mx-auto md:px-20 flex content ">
           <div class="left">
             <div class="border"></div>
             <div class="sidebar">
@@ -207,6 +207,65 @@ export default {
                                 width: 50%;
                                 height: 150px;
                                 border-radius: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+        .project {
+            .content {
+                padding-top: 50px;
+                display: flex;
+                flex-direction: column;
+                .left {
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 300px;
+
+                    .border {
+                        display: none;
+                        height: 0px;
+                    }
+
+                    .sidebar {
+                        margin-left: 0px;
+
+                        .btn-sidebar {
+                            transform: rotate(0deg);
+                        }
+                    }
+
+                    h2 {
+                        margin-left: 0px;
+                    }
+                }
+
+                .right {
+                    width: 100%;
+                    height: 900px;
+                    .right-content {
+                        position: relative;
+
+                        .border {
+                            left: 35%;
+                        }
+                        .box {
+                            .item {
+                                .project-content {
+                                    width: 30%;
+                                    font-size: 15px;
+                                }
+                                .line {
+                                    width: 10%;
+                                    margin: 0px 10px;
+                                }
+                                .content-box {
+                                    width: 70%;
+                                }
                             }
                         }
                     }

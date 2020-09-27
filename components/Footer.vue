@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-      <div class="container mx-auto px-20 content">
+      <div class="container mx-auto md:px-20 content">
           <h1>LETS TALK</h1>
           <div class="social-media">
               <ul>
@@ -148,6 +148,38 @@ export default {
                 font-weight: bold;
                 font-size: 20px;
                 color: $colorSecondary;
+            }
+        }
+    }
+
+    @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+        .footer {
+            .content {
+                .social-media ul {
+                    li {
+                        margin: 0 10px;
+                        width: 40px;
+                        height: 40px;
+
+                        span {
+                            font-size: 25px;
+                        }
+                    }
+                }
+
+                h1 {
+                    font-weight: bold;
+                    font-size: 30px;
+                    color: $colorSecondary;
+                    margin: 100px 0;
+                }
+
+                h2 {
+                    margin-top: 100px;
+                    font-weight: bold;
+                    font-size: 15px;
+                    color: $colorSecondary;
+                }
             }
         }
     }

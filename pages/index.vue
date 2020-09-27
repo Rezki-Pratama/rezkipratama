@@ -11,7 +11,7 @@
                 <img class="img-scroll" src="@/assets/frontend/images/logo/scroll_down.png" alt="">
               </div>
             </div>
-            <div class="container mx-auto px-20 content">
+            <div class="container mx-auto md:px-20 content">
               <div class="description">
               <h1 class="halo">Hello,</h1>
               <h2 class="saya">I'am Rezki Pratama</h2>
@@ -479,10 +479,13 @@ export default {
           overflow: hidden;
           position: relative;
           .title {
+            margin-top: 15%;
             position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
             font-weight: bold;
 
             h1 {
@@ -680,6 +683,71 @@ export default {
           #hand {
             opacity: 0;
             transform-origin: center;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+    .portofolio {
+      .main {
+        .wrapper {
+          .title {
+            margin-top: 200px;
+            h1 {
+              font-size: 40px;
+            }
+
+            p {
+              font-size: 25px
+            }
+
+            .scroll-down {
+              p {
+                font-size: 25px
+              }
+
+              .img-scroll {
+                width: 40px;
+                height: 40px;
+              }
+            }
+          }
+
+          .content {
+            margin-top: 100px;
+            flex-direction: column-reverse;
+            .description {
+                .halo {
+                  font-size: 35px;
+                }
+                .saya {
+                  font-size: 30px;
+                }
+                .posisi {
+                  font-size: 30px;
+                }
+              }
+
+            .img-profile {
+              img {
+                height: 300px;
+              }
+
+              .contact {
+                transform: rotate(-18deg) translateX(0);
+                width: 90%;
+
+                i {
+                  font-size: 2.5em;
+                }
+              }
+            }
+          }
+
+          .illustration {
+            display: none;
           }
         }
       }

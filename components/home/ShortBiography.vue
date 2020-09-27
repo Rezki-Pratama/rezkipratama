@@ -1,6 +1,6 @@
 <template>
   <div class="biography">
-      <div class="container mx-auto px-20 content-biography">
+      <div class="container mx-auto md:px-20 content-biography">
         <div class="title-biography">
           <h1>Short Biography</h1>
           <div class="underline"></div>
@@ -117,6 +117,38 @@ export default {
             height: 100%;
             opacity: 0;
             transform: translateX(-30%);
+        }
+    }
+
+    @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+        .biography {
+            background-image: none;
+           .content-biography {
+               .title-biography {
+                   padding: 0px 10px;
+               }
+
+               .born {
+                   font-size: 20px;
+               }
+
+               .degree {
+                   font-size: 20px;
+               }
+
+               .coder {
+                   font-size: 20px;
+               }
+           } 
+
+           .ampera-bridge {
+                margin-top: 20px;
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                transform: translateX(-30%);
+            }
         }
     }
 </style>

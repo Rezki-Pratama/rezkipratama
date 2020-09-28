@@ -8,7 +8,7 @@
           <div class="container mx-auto content">
               <div class="illustration">
                   <h1 class="font-bold">Contact Me</h1>
-                  <img src="@/assets/frontend/images/call_me.png" alt="">
+                  <img src="@/assets/frontend/images/call_me.webp" alt="">
               </div>
               <div class="form-email">
                   <div>
@@ -55,7 +55,7 @@ export default {
 <style lang="scss" scoped>
     @import 'assets/frontend/styles/utilities/_utilities';
     .kontak-content {
-        background-image: url('~@/assets/frontend/images/background_contact.png');
+        background-image: url('~@/assets/frontend/images/background_contact.webp');
         background-size: cover;
         height: 100vh;
         background-position: top;
@@ -74,7 +74,7 @@ export default {
                 h1 {
                     margin-top: -60px;
                     font-weight: bold;
-                    color: $colorLightBlue;
+                    color: $colorSecondary;
                     font-size: 30px;
                 }
                 img {
@@ -113,7 +113,7 @@ export default {
                     opacity: 1; /* Firefox */
                 }
                 .btn-submit {
-                    background-color: $colorLightBlue;
+                    background-color: $colorSecondary;
                     color: $colorPrimary;
                     border-radius: 10px;
                     font-size: 23px;
@@ -123,7 +123,7 @@ export default {
                     border: none;
                     margin-bottom: 30px;
                     &:hover {
-                        background-color: $colorSecondary;
+                        background-color: $colorLightBlue;
                         box-shadow: -1px 2px 13px rgba(55, 84, 170,.15);
                     }
                 }

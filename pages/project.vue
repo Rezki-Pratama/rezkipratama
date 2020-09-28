@@ -99,7 +99,7 @@ export default {
     .project {
         width: 100%;
         background: rgb(48,147,198);
-        background: linear-gradient(90deg, rgba(48,147,198,1) 0%, rgba(48,132,198,1) 100%, rgba(0,212,255,1) 100%);
+        background: linear-gradient(90deg, rgb(8, 146, 173) 0%, rgb(8, 146, 173) 100%, rgba(0,212,255,1) 100%);
         .content {
             padding-top: 50px;
             .left {

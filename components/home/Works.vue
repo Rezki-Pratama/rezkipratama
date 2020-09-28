@@ -7,19 +7,19 @@
         <div class="content-works">
             <div class="container mx-auto px-20  list-items">
                 <div class="item" id="one">
-                    <img src="@/assets/frontend/images/logo/illustration.png" alt="">
+                    <img src="@/assets/frontend/images/logo/illustration.webp" alt="">
                     <h3>Illustration</h3>
                 </div>
                 <div class="item" id="two">
-                    <img src="@/assets/frontend/images/logo/ui_design.png" alt="">
+                    <img src="@/assets/frontend/images/logo/ui_design.webp" alt="">
                     <h3>UI Design</h3>
                 </div>
                 <div class="item three">
-                    <img src="@/assets/frontend/images/logo/web_design.png" alt="">
+                    <img src="@/assets/frontend/images/logo/web_design.webp" alt="">
                     <h3>Web Design</h3>
                 </div>
                 <div class="item four">
-                    <img src="@/assets/frontend/images/logo/mobile_app.png" alt="">
+                    <img src="@/assets/frontend/images/logo/mobile_app.webp" alt="">
                     <h3>Mobile App</h3>
                 </div>
             </div>
@@ -57,7 +57,7 @@ export default {
         }
         .content-works {
             margin-top: 30px;
-            background-image: url('~@/assets/frontend/images/background_works.png');
+            background-image: url('~@/assets/frontend/images/background_works.webp');
             background-repeat: no-repeat;
             background-position: center center;
             height: 100%;

@@ -66,6 +66,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+@import 'assets/frontend/styles/utilities/_utilities';
+
 // Navbar
 
 .navbar-logo {
@@ -94,7 +97,7 @@ export default {
         flex-direction: row;
         display: flex;
         list-style: none;
-        width: 35%;
+        width: 20%;
         justify-content: space-between;
 
         li {
@@ -144,7 +147,7 @@ export default {
             display: block;
             width: 28px;
             height: 4px;
-            background-color: #58AEE6;
+            background-color: $colorSecondary;
             border-radius: 3px;
             transition: all 0.5s;
         }
@@ -181,7 +184,7 @@ export default {
         margin-top:10px;
         display: flex;
         list-style: none;
-        width: 35%;
+        width: 20%;
         justify-content: space-between;
 
         .dropdown {
@@ -195,10 +198,10 @@ export default {
             }
 
             .button-dropdown {
-                color: #58AEE6;
+                color: $colorSecondary;
 
                 .vol {
-                        background-color: #58AEE6;
+                        background-color: $colorSecondary;
                         border-radius: 10px;
                         height: 5px;
                         width: 50%;
@@ -219,13 +222,13 @@ export default {
         li {
 
             a {
-                color: #58AEE6;
+                color: $colorSecondary;
             }
 
             .btn-navbar {
                 .vol {
                     display: block;
-                    background-color: #58AEE6;
+                    background-color: $colorSecondary;
                 }
             }
 
@@ -257,8 +260,8 @@ export default {
             right: 0;
             top: 50px;
             height: 260px;
-            background-color: #58AEE6;
-            color: #58AEE6;
+            background-color: $colorSecondary;
+            color: $colorSecondary;
             border-radius: 0px 0px 8px 8px;
             padding: 30px;
             align-items: left;
@@ -268,7 +271,7 @@ export default {
 
             li {
                 margin-top: 15px;
-                color: #58AEE6;
+                color: $colorSecondary;
                 .btn-navbar {
                     .vol {
                         display: none;

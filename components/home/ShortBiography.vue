@@ -9,7 +9,7 @@
         <h2 class="degree">Bachelor's Degree in Information System</h2>
         <h2 class="coder"> I am an accomplished Design and Programmer</h2>
       </div>
-      <img class="ampera-bridge" src="@/assets/frontend/images/ampera_bridge.png" alt="">
+      <img class="ampera-bridge" src="@/assets/frontend/images/ampera_bridge.webp" alt="">
   </div>
 </template>
 

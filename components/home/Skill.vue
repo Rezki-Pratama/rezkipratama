@@ -13,7 +13,7 @@
                             <circle cx="70" cy="70" r="70"></circle>
                         </svg>
                         <div class="number">
-                            <img src="~@/assets/frontend/images/logo/html.png" alt="">
+                            <img src="~@/assets/frontend/images/logo/html.webp" alt="">
                         </div>
                     </div>
                     <h2 class="text">HTML</h2>
@@ -28,7 +28,7 @@
                             <circle cx="70" cy="70" r="70"></circle>
                         </svg>
                         <div class="number">
-                            <img src="~@/assets/frontend/images/logo/css.png" alt="">
+                            <img src="~@/assets/frontend/images/logo/css.webp" alt="">
                         </div>
                     </div>
                     <h2 class="text">CSS</h2>
@@ -43,7 +43,7 @@
                             <circle cx="70" cy="70" r="70"></circle>
                         </svg>
                         <div class="number">
-                            <img src="~@/assets/frontend/images/logo/sass.png" alt="">
+                            <img src="~@/assets/frontend/images/logo/sass.webp" alt="">
                         </div>
                     </div>
                     <h2 class="text">SASS</h2>
@@ -73,7 +73,7 @@
                             <circle cx="70" cy="70" r="70" shape-rendering="geometricPrecision"></circle>
                         </svg>
                         <div class="number">
-                            <img src="~@/assets/frontend/images/logo/adobexd.png" alt="">
+                            <img src="~@/assets/frontend/images/logo/adobexd.webp" alt="">
                         </div>
                     </div>
                     <h2 class="text">ADOBE XD</h2>
@@ -88,7 +88,7 @@
                             <circle cx="70" cy="70" r="70" shape-rendering="geometricPrecision"></circle>
                         </svg>
                         <div class="number">
-                            <img src="~@/assets/frontend/images/logo/figma.png" alt="">
+                            <img src="~@/assets/frontend/images/logo/figma.webp" alt="">
                         </div>
                     </div>
                     <h2 class="text">FIGMA</h2>
@@ -103,7 +103,7 @@
                             <circle cx="70" cy="70" r="70" shape-rendering="geometricPrecision"></circle>
                         </svg>
                         <div class="number">
-                            <img src="~@/assets/frontend/images/logo/javascript.png" alt="">
+                            <img src="~@/assets/frontend/images/logo/javascript.webp" alt="">
                         </div>
                     </div>
                     <h2 class="text">JAVASCRIPT</h2>
@@ -118,7 +118,7 @@
                             <circle cx="70" cy="70" r="70" shape-rendering="geometricPrecision"></circle>
                         </svg>
                         <div class="number">
-                            <img src="~@/assets/frontend/images/logo/vue.png" alt="">
+                            <img src="~@/assets/frontend/images/logo/vue.webp" alt="">
                         </div>
                     </div>
                     <h2 class="text">VUE</h2>
@@ -133,7 +133,7 @@
                             <circle cx="70" cy="70" r="70" shape-rendering="geometricPrecision"></circle>
                         </svg>
                         <div class="number">
-                            <img src="~@/assets/frontend/images/logo/bootstrap.png" alt="">
+                            <img src="~@/assets/frontend/images/logo/bootstrap.webp" alt="">
                         </div>
                     </div>
                     <h2 class="text">BOOTSTRAP</h2>

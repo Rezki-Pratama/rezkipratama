@@ -5,7 +5,7 @@
           <div class="social-media">
               <ul>
                   <li>
-                    <a href="#">
+                    <a target="_blank" href="https://telegram.me/RezkiPratama6">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -14,7 +14,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=6285266990656">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -23,7 +23,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a target="_blank" href="https://m.me/RezkiPratama6">
                         <span></span>
                         <span></span>
                         <span></span>

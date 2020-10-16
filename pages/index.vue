@@ -27,9 +27,9 @@
               <a target="_blank" href="https://github.com/Rezki-Pratama"><i class="fab fa-github"></i></a>
               <a target="_blank" href="https://www.linkedin.com/in/rezki-pratama-a858971a5/"><i class="fab fa-linkedin"></i></a>
               <a target="_blank" href="https://www.facebook.com/RezkiPratama6"><i class="fab fa-facebook-square"></i></a>
-              <a href="#"><i class="fas fa-envelope"></i></a>
-              <a href="#"><i class="fab fa-dribbble"></i></a>
-              <a href="#"><i class="fab fa-behance-square"></i></a>
+              <a target="_blank" href="mailto:rezki.pratama7777@gmail.com"><i class="fas fa-envelope"></i></a>
+              <a target="_blank" href="https://dribbble.com/RezkiPratama"><i class="fab fa-dribbble"></i></a>
+              <a target="_blank" href="https://www.behance.net/rezkipratama"><i class="fab fa-behance-square"></i></a>
             </div>
           </div>
             </div>

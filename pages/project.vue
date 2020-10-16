@@ -5,7 +5,7 @@
           <div class="left">
             <div class="border"></div>
             <div class="sidebar">
-                <button href="#" class="btn-sidebar">
+                <button v-on:click="component = 'ProjectIllustration'" class="btn-sidebar">
                 ILLUSTRATION
                 </button>
                 <button href="#" class="btn-sidebar">
@@ -14,63 +14,14 @@
                 <button href="#" class="btn-sidebar">
                     WEBSITE
                 </button>
-                <button href="#" class="btn-sidebar">
+                <button v-on:click="component = 'ProjectUI'" class="btn-sidebar">
                     UI DESIGN
                 </button>
                 <h2>Project</h2>
             </div>
           </div>
           <div class="right">
-              <div class="right-content">
-                  <div class="border"></div>
-                  <div class="box">
-
-                      <div class="item">
-                          <div class="project-content">
-                            <h2>PROJECT 1</h2>
-                            <h2>2020</h2>
-                          </div>
-                          <div class="line"></div>
-                          <div class="content-box">
-
-                          </div>
-                      </div>
-
-                      <div class="item">
-                          <div class="project-content">
-                            <h2>PROJECT 2</h2>
-                            <h2>2020</h2>
-                          </div>
-                          <div class="line"></div>
-                          <div class="content-box">
-
-                          </div>
-                      </div>
-
-                      <div class="item">
-                          <div class="project-content">
-                            <h2>PROJECT 3</h2>
-                            <h2>2020</h2>
-                          </div>
-                          <div class="line"></div>
-                          <div class="content-box">
-
-                          </div>
-                      </div>
-
-                      <div class="item">
-                          <div class="project-content">
-                            <h2>PROJECT 4</h2>
-                            <h2>2020</h2>
-                          </div>
-                          <div class="line"></div>
-                          <div class="content-box">
-
-                          </div>
-                      </div>
-
-                  </div>
-              </div>
+            <component v-bind:is="component"></component>
           </div>
       </div>
       <Footer/>
@@ -80,11 +31,20 @@
 <script>
 import Navbar from '@/components/Navbar.vue';
 import Footer from '@/components/Footer.vue';
+import ProjectUI from '@/components/project/ProjectUI.vue';
+import ProjectIllustration from '@/components/project/ProjectIllustration.vue';
 export default {
     name: 'Project',
     components: {
         Navbar,
+        ProjectUI,
+        ProjectIllustration,
         Footer
+    },
+    data() {
+        return {
+            component: 'ProjectUI',
+        }
     },
     layout: 'fun',
     transition: 'slide-bottom'
@@ -153,64 +113,6 @@ export default {
             .right {
                 width: 60%;
                 height: 900px;
-                .right-content {
-                    position: relative;
-
-                    .border {
-                        margin-left: auto;
-                        margin-right: auto;
-                        left: 45%;
-                        right: 0;
-                        text-align: center;
-                        background-color: $colorSecondary;
-                        border-color: $colorSecondary;
-                        border-radius: 50px;
-                        width: 6px;
-                        height: 900px;
-                        position: absolute;
-                    }
-
-                    .box {
-                        margin-left: auto;
-                        margin-right: auto;
-                        left: 0;
-                        right: 0;
-                        margin-top: 10%;
-                        margin-bottom: 10%;
-                        text-align: center;
-                        position: absolute;
-                        width: 90%;
-                        height: 800px;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        .item {
-                            align-items: center;
-                            display: flex;
-                            justify-content: space-between;
-                            .project-content {
-                                text-align: right;
-                                font-weight: bold;
-                                color: $colorPrimary;
-                                width: 30%;
-                            }
-                            .line {
-                                height: 6px;
-                                width: 15%;
-                                border-radius: 50px;
-                                background-color: $colorSecondary;
-                                border-color: $colorSecondary;
-                                margin: 0px 20px;
-                            }
-                            .content-box {
-                                background-color: $colorPrimary;
-                                width: 50%;
-                                height: 150px;
-                                border-radius: 30px;
-                            }
-                        }
-                    }
-                }
             }
         }
     }
@@ -247,28 +149,6 @@ export default {
                 .right {
                     width: 100%;
                     height: 900px;
-                    .right-content {
-                        position: relative;
-
-                        .border {
-                            left: 35%;
-                        }
-                        .box {
-                            .item {
-                                .project-content {
-                                    width: 30%;
-                                    font-size: 15px;
-                                }
-                                .line {
-                                    width: 10%;
-                                    margin: 0px 10px;
-                                }
-                                .content-box {
-                                    width: 70%;
-                                }
-                            }
-                        }
-                    }
                 }
             }
         }

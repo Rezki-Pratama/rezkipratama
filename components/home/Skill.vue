@@ -13,7 +13,7 @@
                             <circle cx="70" cy="70" r="70"></circle>
                         </svg>
                         <div class="number">
-                            <img src="~@/assets/frontend/images/logo/html.webp" alt="">
+                            <img src="~@/assets/frontend/images/logo/html5.svg" alt="">
                         </div>
                     </div>
                     <h2 class="text">HTML</h2>
@@ -146,7 +146,7 @@
 
 <script>
 export default {
-    name: 'Skill'
+    name: 'Skill',
 
 }
 </script>

@@ -12,7 +12,7 @@
                 with my friends and my favorite football club is manchester united.</p>
             </div>
             <div class="content-football">
-                <img class="man-soccer" src="@/assets/frontend/images/man_soccer.webp" alt="">
+                <img class="man-soccer" src="@/assets/frontend/images/man_soccer.png" alt="">
                 <img class="ball" src="@/assets/frontend/images/ball.png" alt="">
             </div>
             
@@ -25,7 +25,7 @@
                 </p>
             </div>
             <div class="content-games">
-                <img class="man-games" src="@/assets/frontend/images/play_games.webp" alt="">
+                <img class="man-games" src="@/assets/frontend/images/play_games.png" alt="">
             </div>
         </div>
         </div>

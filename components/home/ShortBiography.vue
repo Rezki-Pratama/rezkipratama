@@ -9,7 +9,7 @@
         <h2 class="degree">Bachelor's Degree in Information System</h2>
         <h2 class="coder"> I am an accomplished Design and Programmer</h2>
       </div>
-      <img class="ampera-bridge" src="@/assets/frontend/images/ampera_bridge.webp" alt="">
+      <img class="ampera-bridge" src="@/assets/frontend/images/ampera_bridge.png" alt="">
   </div>
 </template>
 
@@ -113,8 +113,8 @@ export default {
         .ampera-bridge {
             margin-top: 20px;
             object-fit: contain;
-            width: 45%;
-            height: 100%;
+            width: 40%;
+            height: 90%;
             opacity: 0;
             transform: translateX(-30%);
         }

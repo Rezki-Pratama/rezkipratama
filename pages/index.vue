@@ -75,7 +75,11 @@ export default {
         Footer
     },
     mounted: function() {
-      this.startAnimations()
+      this.startAnimations();
+      this.$nextTick(() => {
+        this.$nuxt.$loading.start()
+        setTimeout(() => this.$nuxt.$loading.finish(), 500)
+      });
     },
     methods: {
       startAnimations: function() {

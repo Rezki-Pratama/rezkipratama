@@ -34,9 +34,11 @@
           </div>
             </div>
           <div class="illustration">
-            <div class="container mx-auto md:px-20 content-illustration">
-              <img class="text-illustration" src="@/assets/frontend/images/illustration1.svg" alt="">
-              <img class="man-illustration" src="@/assets/frontend/images/illustration2.svg" alt="">
+            <div class="container-illustration">
+              <div class="container mx-auto md:px-20 content-illustration">
+                <img class="text-illustration" src="@/assets/frontend/images/illustration1.svg" alt="">
+                <img class="man-illustration" src="@/assets/frontend/images/illustration2.svg" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -312,32 +314,39 @@ export default {
           }
 
         .illustration {
-          height: 500px;
+          height: 0;
           width: 100%;
           position: absolute;
           bottom: 0;
           left: 50%;
-          background-color: $colorSecondary;
           transform: translate(-50%, 0);
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center bottom;
           z-index: 2;
 
-          .content-illustration {
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              padding: 100px;
+          .container-illustration {
+            width: 100%;
+            height: 100%;
+            padding: 50px 0;
+            background-color: $colorSecondary;
+            .content-illustration {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 100px;
 
-            .text-illustration {
-                width: 50%;
-            }
+              .text-illustration {
+                  width: 50%;
+              }
 
-            .man-illustration {
-                width: 30%;
+              .man-illustration {
+                  width: 30%;
+              }
             }
           }
+
+          
 
           .quote {
             opacity: 0;

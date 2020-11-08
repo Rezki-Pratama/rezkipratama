@@ -92,7 +92,9 @@ export default {
                 .project-content {
                     text-align: right;
                     font-weight: bold;
-                    color: $colorPrimary;
+                    border-color: $colorSecondary;
+                    border-style: solid;
+                    color: $colorBlack;
                     width: 30%;
                 }
                 .line {

@@ -5,18 +5,18 @@
           <div class="left">
             <div class="border"></div>
             <div class="sidebar">
-                <button v-on:click="component = 'ProjectIllustration'" class="btn-sidebar">
+                <a v-on:click="component = 'ProjectIllustration'" class="btn-sidebar">
                 ILLUSTRATION
-                </button>
-                <button href="#" class="btn-sidebar">
+                </a>
+                <a href="#" class="btn-sidebar">
                     MOBILE APP
-                </button>
-                <button href="#" class="btn-sidebar">
+                </a>
+                <a href="#" class="btn-sidebar">
                     WEBSITE
-                </button>
-                <button v-on:click="component = 'ProjectUI'" class="btn-sidebar">
+                </a>
+                <a v-on:click="component = 'ProjectUI'" class="btn-sidebar">
                     UI DESIGN
-                </button>
+                </a>
                 <h2>Project</h2>
             </div>
           </div>
@@ -64,8 +64,9 @@ export default {
 
     .project {
         width: 100%;
-        background: rgb(48,147,198);
-        background: linear-gradient(90deg, rgb(8, 146, 173) 0%, rgb(8, 146, 173) 100%, rgba(0,212,255,1) 100%);
+        // background: rgb(48,147,198);
+        // background: linear-gradient(90deg, rgb(8, 146, 173) 0%, rgb(8, 146, 173) 100%, rgba(0,212,255,1) 100%);
+        background-color: #EBFAFF;
         .content {
             padding-top: 50px;
             .left {
@@ -104,14 +105,20 @@ export default {
                         padding: 5px 10px;
                         border-radius: 5px;
                         transform: rotate(-90deg);
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: $colorStabilo;
+                        }
                     }
                 }
 
                 h2 {
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    background-color: $colorSecondary;
                     margin-left: 50px;
-                    background-color: inherit;
                     color: $colorPrimary;
-                    padding: 5px 0px;
                     font-weight: bold;
                 }
             }

@@ -10,19 +10,19 @@
             </svg>
             <div class="container mx-auto px-20  list-items">
                 <div class="item" id="one">
-                    <img src="@/assets/frontend/images/logo/illustration.webp" alt="">
+                    <img src="@/assets/frontend/images/logo/illustration.svg" alt="">
                     <h3>Illustration</h3>
                 </div>
                 <div class="item" id="two">
-                    <img src="@/assets/frontend/images/logo/ui_design.webp" alt="">
+                    <img src="@/assets/frontend/images/logo/ui_design.svg" alt="">
                     <h3>UI Design</h3>
                 </div>
                 <div class="item three">
-                    <img src="@/assets/frontend/images/logo/web_design.webp" alt="">
+                    <img src="@/assets/frontend/images/logo/web_design.svg" alt="">
                     <h3>Web Design</h3>
                 </div>
                 <div class="item four">
-                    <img src="@/assets/frontend/images/logo/mobile_app.webp" alt="">
+                    <img src="@/assets/frontend/images/logo/mobile_app.svg" alt="">
                     <h3>Mobile App</h3>
                 </div>
             </div>

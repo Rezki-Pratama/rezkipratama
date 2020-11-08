@@ -37,12 +37,12 @@ export default {
                 {
                     name: 'MyDiabetes Redesign',
                     year: '2020',
-                    // image: require('@/assets/frontend/images/Diabetes.jpg')
+                    image: require('@/assets/frontend/images/Diabetes.webp')
                 },
                 {
                     name: 'Chocolicious',
                     year: '2020',
-                    // image: require('@/assets/frontend/images/Chocolicious.webp')
+                    image: require('@/assets/frontend/images/Chocolicious.webp')
                 }
             ]
         }
@@ -92,7 +92,7 @@ export default {
                 .project-content {
                     text-align: right;
                     font-weight: bold;
-                    color: $colorPrimary;
+                    color: $colorBlack;
                     width: 30%;
                 }
                 .line {

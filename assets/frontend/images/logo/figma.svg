@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="350" viewBox="0 0 350 350">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_92" data-name="Rectangle 92" width="251" height="244" transform="translate(630 6047)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="figma" transform="translate(-557 -5994)">
+    <g id="Ellipse_59" data-name="Ellipse 59" transform="translate(557 5994)" fill="#00b4d8" stroke="#00b4d8" stroke-width="1">
+      <circle cx="175" cy="175" r="175" stroke="none"/>
+      <circle cx="175" cy="175" r="174.5" fill="none"/>
+    </g>
+    <g id="Mask_Group_18" data-name="Mask Group 18" transform="translate(-23)" clip-path="url(#clip-path)">
+      <g id="figma-1" transform="translate(674.167 6047)">
+        <path id="path0_fill" d="M40.667,244a40.682,40.682,0,0,0,40.667-40.667V162.667H40.667a40.667,40.667,0,1,0,0,81.333Z" fill="#00d5ff"/>
+        <path id="path1_fill" d="M0,122A40.682,40.682,0,0,1,40.667,81.333H81.333v81.333H40.667A40.682,40.682,0,0,1,0,122Z" fill="#b5f3ff"/>
+        <path id="path1_fill_1_" d="M0,40.667A40.682,40.682,0,0,1,40.667,0H81.333V81.333H40.667A40.682,40.682,0,0,1,0,40.667Z" fill="#56e3ff"/>
+        <path id="path2_fill" d="M81.333,0H122a40.667,40.667,0,1,1,0,81.333H81.333Z" fill="#fff"/>
+        <path id="path3_fill" d="M162.667,122A40.667,40.667,0,1,1,122,81.333,40.682,40.682,0,0,1,162.667,122Z" fill="#fbfbfb"/>
+      </g>
+    </g>
+  </g>
+</svg>

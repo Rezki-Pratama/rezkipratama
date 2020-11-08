@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="350" viewBox="0 0 350 350">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_84" data-name="Rectangle 84" width="251" height="244" transform="translate(580 5391)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.04" y1="0.27" x2="0.759" y2="0.529" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.8"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="flutter" transform="translate(-580 -5391)">
+    <g id="Ellipse_51" data-name="Ellipse 51" transform="translate(580 5391)" fill="#00b4d8" stroke="#00b4d8" stroke-width="1">
+      <circle cx="175" cy="175" r="175" stroke="none"/>
+      <circle cx="175" cy="175" r="174.5" fill="none"/>
+    </g>
+    <g id="Mask_Group_10" data-name="Mask Group 10" transform="translate(20 53)" clip-path="url(#clip-path)">
+      <g id="flutter-2" data-name="flutter" transform="translate(604.289 5391)">
+        <path id="Path_747" data-name="Path 747" d="M124.854,0,0,121.9l38.644,37.73L202.144,0Z" transform="translate(-0.001 -0.001)" fill="#fff"/>
+        <path id="Path_748" data-name="Path 748" d="M158,183.691l-66.85,65.268,38.79,38.438,38.573-37.66,67.647-66.045Z" transform="translate(-34.018 -71.278)" fill="#fff"/>
+        <path id="Path_749" data-name="Path 749" d="M153.036,329.273l29.365,28.67h76.854l-67.647-66.33Z" transform="translate(-57.113 -113.155)" fill="#56e3ff"/>
+        <path id="Path_750" data-name="Path 750" d="M90.457,267.112l38.645-37.73,39.152,38.084-38.572,37.66Z" transform="translate(-33.759 -89.007)" fill="#b5f3ff"/>
+        <path id="Path_751" data-name="Path 751" d="M153.036,331.293l32.119-10.406,3.191-24.069Z" transform="translate(-57.113 -115.175)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

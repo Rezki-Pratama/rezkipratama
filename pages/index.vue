@@ -50,7 +50,7 @@
 
       <Works/>
 
-      <Skill/>
+      <Skills/>
 
       <Footer/>
 
@@ -62,7 +62,7 @@ import Navbar from '@/components/Navbar.vue';
 import ShortBiography from '@/components/home/ShortBiography.vue';
 import Hobbies from '@/components/home/Hobbies.vue';
 import Works from '@/components/home/Works.vue';
-import Skill from '@/components/home/Skill.vue';
+import Skills from '@/components/home/Skills.vue';
 import Footer from '@/components/Footer.vue';
 import { gsap } from "gsap";
 export default {
@@ -71,7 +71,7 @@ export default {
         ShortBiography,
         Hobbies,
         Works,
-        Skill,
+        Skills,
         Footer
     },
     mounted: function() {

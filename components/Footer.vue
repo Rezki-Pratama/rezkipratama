@@ -87,7 +87,7 @@ export default {
                     height: 60px;
                     margin: 0 30px;
                     transform: rotate(-30deg) skew(25deg);
-                    background: #ccc;
+                    background: #BDE52E;
 
                     span {
                         border-radius: 10px;
@@ -106,6 +106,9 @@ export default {
                     }
 
                     &:hover span {
+
+                        color: #BDE52E;
+
                         &:nth-child(5) {
                             transform: translate(40px, -40px);
                             opacity: 1;

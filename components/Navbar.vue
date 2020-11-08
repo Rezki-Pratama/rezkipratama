@@ -104,14 +104,14 @@ export default {
 
             a {
                 font-size: 14px;
-                color: #2D2D2D;
+                color: $colorSecondary;
                 text-decoration: none;
                 font-weight: bold;
             }
 
             .btn-navbar {
                 .vol {
-                    background-color: #2D2D2D;
+                    background-color: $colorSecondary;
                     border-radius: 20px;
                     height: 5px;
                     width: 50%;
@@ -241,6 +241,14 @@ export default {
     .navbar {
         ul {
             width: 70%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .navbar {
+        ul {
+            width: 15%;
         }
     }
 }

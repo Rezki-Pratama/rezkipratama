@@ -36,7 +36,7 @@
           <div class="illustration">
             <div class="container-illustration">
               <div class="container mx-auto md:px-20 content-illustration">
-                <img class="text-illustration" src="@/assets/frontend/images/illustration1.svg" alt="">
+                <img class="text-illustration" src="@/assets/frontend/images/illustration3.svg" alt="">
                 <img class="man-illustration" src="@/assets/frontend/images/illustration2.svg" alt="">
               </div>
             </div>
@@ -220,7 +220,7 @@ export default {
                   background-color: $colorSecondary;
 
                   &:hover {
-                    background-color: $colorLightBlue;
+                    background-color: $colorStabilo;
                   }
                 }
               }
@@ -341,7 +341,7 @@ export default {
                 padding: 100px;
 
               .text-illustration {
-                  width: 50%;
+                  width: 70%;
               }
 
               .man-illustration {

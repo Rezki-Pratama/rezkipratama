@@ -398,7 +398,7 @@ export default {
                 &:hover .number {
                     transform-box: fill-box;
                     transform-origin: 50% 50%;
-                    transform: rotate(20deg);
+                    transform: rotate3d(0, 2, 1, 380deg);
                 }
 
                 &:hover .number svg .sub-svg {

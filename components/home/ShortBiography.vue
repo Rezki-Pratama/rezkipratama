@@ -9,7 +9,7 @@
         <h2 class="degree">Bachelor's Degree in Information System</h2>
         <h2 class="coder"> I am an accomplished Design and Programmer</h2>
       </div>
-      <img class="ampera-bridge" src="@/assets/frontend/images/ampera_bridge.png" alt="">
+      <img class="ampera-bridge" src="@/assets/frontend/images/ampera_bridge.svg" alt="">
   </div>
 </template>
 
@@ -24,13 +24,13 @@ export default {
         startAnimations: function () {
             let tl = new TimelineMax({onUpdate:updatePercentage})
 
-            tl.to(".biography", 0.2, {opacity: "1"}, 0)
-            tl.to(".title-biography", 0.3, {opacity: "1",transform: "translateX(0)"}, 0)
-            tl.to(".underline", 0.3, {opacity: "1", width: "100%"}, 0)
-            tl.to(".born", 0.5, {opacity: "1", transform: "translateX(0)"}, 0)
-            tl.to(".degree", 0.7, {opacity: "1", transform: "translateX(0)"}, 0)
-            tl.to(".coder", 0.9, {opacity: "1", transform: "translateX(0)"}, 0)
-            tl.to(".ampera-bridge", 0.5, {opacity: "1", transform: "translateX(0)"}, 0)
+            // tl.to(".biography", 0.2, {opacity: "1"}, 0)
+            // tl.to(".title-biography", 0.3, {opacity: "1",transform: "translateX(0)"}, 0)
+            // tl.to(".underline", 0.3, {opacity: "1", width: "100%"}, 0)
+            // tl.to(".born", 0.5, {opacity: "1", transform: "translateX(0)"}, 0)
+            // tl.to(".degree", 0.7, {opacity: "1", transform: "translateX(0)"}, 0)
+            // tl.to(".coder", 0.9, {opacity: "1", transform: "translateX(0)"}, 0)
+            // tl.to(".ampera-bridge", 0.5, {opacity: "1", transform: "translateX(0)"}, 0)
 
             const scene = this.$scrollmagic.scene({
               triggerElement: '.biography',
@@ -60,7 +60,7 @@ export default {
         background-size: contain;
         background-position: right;
         background-repeat: no-repeat;
-        opacity: 0;
+        // opacity: 0;
 
         .content-biography {
             padding-top: 100px;
@@ -70,8 +70,8 @@ export default {
             .title-biography {
                 width: max-content;
                 height: max-content;
-                opacity: 0;
-                transform: translateX(30%);
+                // opacity: 0;
+                // transform: translateX(30%);
                 h1 {
                     font-size: 40px;
                     font-weight: bold;
@@ -80,7 +80,7 @@ export default {
 
                 .underline {
                     background-color: $colorSecondary;
-                    width: 20%;
+                    width: 100%;
                     height: 5px;
                     border-radius: 20px;
                 }
@@ -90,24 +90,24 @@ export default {
                 margin-top: 20px;
                 margin-left: 50px;
                 font-size: 30px;
-                opacity: 0;
-                transform: translateX(30%);
+                // opacity: 0;
+                // transform: translateX(30%);
             }
 
             .degree {
                 margin-top: 20px;
                 margin-left: 100px;
                 font-size: 30px;
-                opacity: 0;
-                transform: translateX(30%);
+                // opacity: 0;
+                // transform: translateX(30%);
             }
 
             .coder {
                 margin-top: 20px;
                 margin-left: 150px;
                 font-size: 30px;
-                opacity: 0;
-                transform: translateX(30%);
+                // opacity: 0;
+                // transform: translateX(30%);
             }
         }
         .ampera-bridge {
@@ -115,8 +115,8 @@ export default {
             object-fit: contain;
             width: 40%;
             height: 90%;
-            opacity: 0;
-            transform: translateX(-30%);
+            // opacity: 0;
+            // transform: translateX(-30%);
         }
     }
 

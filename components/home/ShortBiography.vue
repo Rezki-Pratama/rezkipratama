@@ -14,38 +14,13 @@
 </template>
 
 <script>
-import { gsap } from "gsap";
 export default {
     name: 'ShortBiography',
     mounted: function() {
-      this.startAnimations()
+      
     },
     methods: {
-        startAnimations: function () {
-            let tl = new TimelineMax({onUpdate:updatePercentage})
-
-            // tl.to(".biography", 0.2, {opacity: "1"}, 0)
-            // tl.to(".title-biography", 0.3, {opacity: "1",transform: "translateX(0)"}, 0)
-            // tl.to(".underline", 0.3, {opacity: "1", width: "100%"}, 0)
-            // tl.to(".born", 0.5, {opacity: "1", transform: "translateX(0)"}, 0)
-            // tl.to(".degree", 0.7, {opacity: "1", transform: "translateX(0)"}, 0)
-            // tl.to(".coder", 0.9, {opacity: "1", transform: "translateX(0)"}, 0)
-            // tl.to(".ampera-bridge", 0.5, {opacity: "1", transform: "translateX(0)"}, 0)
-
-            const scene = this.$scrollmagic.scene({
-              triggerElement: '.biography',
-              triggerHook: 0,
-              duration: "100%"
-            })
-            .setPin(".biography")
-            .setTween(tl)
-
-            this.$scrollmagic.addScene(scene)
-
-            function updatePercentage() {
-              tl.progress()
-            }
-        }
+       
     }
 
 }

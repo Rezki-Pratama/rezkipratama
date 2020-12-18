@@ -2,7 +2,7 @@
   <!-- Navbar -->
         <nav id="nav" class="navbar">
             <nuxt-link to="/" class="navbar-logo">
-                <img src="@/assets/frontend/images/logo_rezki.png" alt="Logo Rezki Travel">
+                <img src="@/assets/frontend/images/logo/logo_rezki.webp" alt="Logo Rezki Travel">
             </nuxt-link>
                 <ul id="ul">
                     <li class=""> 

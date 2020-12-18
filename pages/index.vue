@@ -16,12 +16,12 @@
               <h1 class="halo">Hello,</h1>
               <h2 class="saya">I'am Rezki Pratama</h2>
               <h3 class="posisi">Frontend and UI Designer</h3>
-              <a href="#" class="btn-hubungi">
-                Call Me
+              <a href="https://drive.google.com/file/d/1iUN5tl4r6EdSe1EbYkEJhdqsjJky_i-W/view?usp=sharing" target="_blank" class="btn-hubungi">
+                Download CV
               </a>
           </div>
           <div class="img-profile">
-            <img src="@/assets/frontend/images/rezki_profile.svg" alt="">
+            <img src="@/assets/frontend/images/rezki_profile2.svg" alt="">
             <div class="contact">
               <a target="_blank" href="https://www.instagram.com/rezkipratama6"><i class="fab fa-instagram"></i></a>
               <a target="_blank" href="https://github.com/Rezki-Pratama"><i class="fab fa-github"></i></a>

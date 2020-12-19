@@ -130,40 +130,25 @@ export default {
         }
     }
 
-    @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
-        .project {
-            .content {
-                padding-top: 50px;
-                display: flex;
-                flex-direction: column;
-                .left {
-                    margin-top: 50px;
-                    width: 100%;
-                    height: 300px;
-
-                    .border {
-                        display: none;
-                        height: 0px;
-                    }
-
-                    .sidebar {
-                        margin-left: 0px;
-
-                        .btn-sidebar {
-                            transform: rotate(0deg);
-                        }
-                    }
-
-                    h2 {
-                        margin-left: 0px;
+    @media only screen and (max-width: 768px) {
+       
+    .project {
+        .content {
+            .left {
+                width: 25%;
+                .sidebar {
+                    .btn-sidebar {
                     }
                 }
-
-                .right {
-                    width: 100%;
-                    height: 900px;
+                .border {
                 }
             }
+
+            .right {
+                width: 75%;
+            }
         }
+    }
+
     }
 </style>

@@ -7,10 +7,9 @@
       <div class="kontak-content">
           <div class="container mx-auto content">
               <div class="illustration">
-                  <h1 class="font-bold">Contact Me</h1>
-                  <img src="@/assets/frontend/images/call_me.webp" alt="">
+                  <img src="@/assets/frontend/images/call_me.svg" alt="">
               </div>
-              <div class="form-email">
+              <div class="form-email px-4 md:px-0">
                   <div>
                     <input class="bg-white appearance-none border-2 mb-5 rounded-lg border-gray-200 w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-gray-200 focus:border-blue-600 shadow-sm" id="inline-full-name" type="text" placeholder="Nama">
                   </div>
@@ -61,7 +60,7 @@ export default {
 <style lang="scss" scoped>
     @import 'assets/frontend/styles/utilities/_utilities';
     .kontak-content {
-        background-image: url('~@/assets/frontend/images/background_contact.webp');
+        background-image: url('~@/assets/frontend/images/background_contact3.svg');
         background-size: cover;
         height: 100vh;
         background-position: top;
@@ -129,7 +128,7 @@ export default {
                     border: none;
                     margin-bottom: 30px;
                     &:hover {
-                        background-color: $colorLightBlue;
+                        background-color: $colorStabilo;
                         box-shadow: -1px 2px 13px rgba(55, 84, 170,.15);
                     }
                 }

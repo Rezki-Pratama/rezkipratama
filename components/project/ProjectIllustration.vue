@@ -121,7 +121,7 @@ export default {
         }
     }
 
-    @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+    @media only screen and (max-width: 768px) {
         .right-content {
             position: relative;
 

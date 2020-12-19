@@ -5,42 +5,43 @@
       <div class="main">
         <div class="wrapper">
             <div class="title">
-              <h1>Welcome, Mate</h1>
+              <img class="img-scroll" src="@/assets/frontend/images/welcome_mate.svg" alt="">
+              <!-- <h1>Welcome, Mate</h1>
               <div class="scroll-down">
                 <p>Scroll down</p>
                 <img class="img-scroll" src="@/assets/frontend/images/logo/scroll_down.webp" alt="">
-              </div>
+              </div> -->
             </div>
             <div class="container mx-auto md:px-20 content">
               <div class="description">
-              <h1 class="halo">Hello,</h1>
-              <h2 class="saya">I'am Rezki Pratama</h2>
-              <h3 class="posisi">Frontend and UI Designer</h3>
-              <a href="https://drive.google.com/file/d/1iUN5tl4r6EdSe1EbYkEJhdqsjJky_i-W/view?usp=sharing" target="_blank" class="btn-hubungi">
-                Download CV
-              </a>
-          </div>
-          <div class="img-profile">
-            <img src="@/assets/frontend/images/rezki_profile2.svg" alt="">
-            <div class="contact">
-              <a target="_blank" href="https://www.instagram.com/rezkipratama6"><i class="fab fa-instagram"></i></a>
-              <a target="_blank" href="https://github.com/Rezki-Pratama"><i class="fab fa-github"></i></a>
-              <a target="_blank" href="https://www.linkedin.com/in/rezki-pratama-a858971a5/"><i class="fab fa-linkedin"></i></a>
-              <a target="_blank" href="https://www.facebook.com/RezkiPratama6"><i class="fab fa-facebook-square"></i></a>
-              <a target="_blank" href="mailto:rezki.pratama7777@gmail.com"><i class="fas fa-envelope"></i></a>
-              <a target="_blank" href="https://dribbble.com/RezkiPratama"><i class="fab fa-dribbble"></i></a>
-              <a target="_blank" href="https://www.behance.net/rezkipratama"><i class="fab fa-behance-square"></i></a>
+                <h1 class="halo">Hello,</h1>
+                <h2 class="saya">I'am Rezki Pratama</h2>
+                <h3 class="posisi">Frontend and UI Designer</h3>
+                <a href="https://drive.google.com/file/d/1827Q5GcMVCY3u5fmjqWsb1DJLwAIPJXc/view?usp=sharing" target="_blank" class="btn-hubungi">
+                  Download CV
+                </a>
+              </div>
+              <div class="img-profile">
+                <img src="@/assets/frontend/images/rezki_profile2.svg" alt="">
+                <div class="contact">
+                  <a target="_blank" href="https://www.instagram.com/rezkipratama6"><i class="fab fa-instagram"></i></a>
+                  <a target="_blank" href="https://github.com/Rezki-Pratama"><i class="fab fa-github"></i></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/rezki-pratama-a858971a5/"><i class="fab fa-linkedin"></i></a>
+                  <a target="_blank" href="https://www.facebook.com/RezkiPratama6"><i class="fab fa-facebook-square"></i></a>
+                  <a target="_blank" href="mailto:rezki.pratama7777@gmail.com"><i class="fas fa-envelope"></i></a>
+                  <a target="_blank" href="https://dribbble.com/RezkiPratama"><i class="fab fa-dribbble"></i></a>
+                  <a target="_blank" href="https://www.behance.net/rezkipratama"><i class="fab fa-behance-square"></i></a>
+                </div>
+              </div>
             </div>
-          </div>
-            </div>
-          <div class="illustration">
+          <!-- <div class="illustration">
             <div class="container-illustration">
               <div class="container mx-auto md:px-20 content-illustration">
                 <img class="text-illustration" src="@/assets/frontend/images/illustration3.svg" alt="">
                 <img class="man-illustration" src="@/assets/frontend/images/illustration2.svg" alt="">
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -76,10 +77,6 @@ export default {
     },
     mounted: function() {
       this.startAnimations();
-      this.$nextTick(() => {
-        this.$nuxt.$loading.start()
-        setTimeout(() => this.$nuxt.$loading.finish(), 500)
-      });
     },
     methods: {
       startAnimations: function() {
@@ -98,12 +95,6 @@ export default {
         tl.to(".fa-envelope", 1, {opacity: "1",transform: "translateX(0)"}, 6)
         tl.to(".fa-dribbble", 1, {opacity: "1",transform: "translateX(0)"}, 7)
         tl.to(".fa-behance-square", 1, {opacity: "1",transform: "translateX(0)"}, 8)
-        tl.to(".illustration", 2, {height: "100%"}, 9)
-        tl.to(".illustration .glasses", 2, {opacity: "1"}, 10)
-        tl.to(".illustration .glasses", 2, {rotation: 360, transformOrigin: "center center"}, 10)
-        tl.to(".illustration #hand", 2, {opacity: "1"}, 11)
-        tl.to(".illustration #hand", 2, {rotation: 360, transformOrigin: "center center"}, 11)
-        tl.to(".quote", 2, {opacity: "1"}, 12)
         
 
         const scene = this.$scrollmagic.scene({
@@ -136,7 +127,6 @@ export default {
           overflow: hidden;
           position: relative;
           .title {
-            margin-top: 15%;
             position: absolute;
             margin-left: auto;
             margin-right: auto;
@@ -189,6 +179,7 @@ export default {
             align-items: center;
             height: 100vh;
             overflow: hidden;
+            flex-direction: row;
               .description {
                 .halo {
                   font-size: 60px;
@@ -317,59 +308,11 @@ export default {
             }
           }
 
-        .illustration {
-          height: 0;
-          width: 100%;
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          transform: translate(-50%, 0);
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center bottom;
-          z-index: 2;
-
-          .container-illustration {
-            width: 100%;
-            height: 100%;
-            padding: 50px 0;
-            background-color: $colorSecondary;
-            .content-illustration {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 100px;
-
-              .text-illustration {
-                  width: 70%;
-              }
-
-              .man-illustration {
-                  width: 30%;
-              }
-            }
-          }
-
-          
-
-          .quote {
-            opacity: 0;
-          }
-
-          .glasses {
-            opacity: 0;
-          }
-
-          #hand {
-            opacity: 0;
-            transform-origin: center;
-          }
-        }
       }
     }
   }
 
-  @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+  @media only screen and (max-width: 768px) {
     .portofolio {
       .main {
         .wrapper {
@@ -397,6 +340,9 @@ export default {
 
           .content {
             margin-top: 100px;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
             flex-direction: column-reverse;
             .description {
                 .halo {
@@ -416,7 +362,7 @@ export default {
               }
 
               .contact {
-                transform: rotate(-18deg) translateX(0);
+                transform: rotate(0) translateX(0);
                 width: 90%;
 
                 i {
@@ -424,10 +370,6 @@ export default {
                 }
               }
             }
-          }
-
-          .illustration {
-            display: none;
           }
         }
       }

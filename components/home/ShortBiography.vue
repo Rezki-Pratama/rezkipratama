@@ -31,7 +31,7 @@ export default {
     @import 'assets/frontend/styles/utilities/_utilities';
 
     .biography {
-        background-image: url('~@/assets/frontend/images/background_biography.svg');
+        background-image: url('~@/assets/frontend/images/background_biography3.svg');
         background-size: contain;
         background-position: right;
         background-repeat: no-repeat;
@@ -95,12 +95,16 @@ export default {
         }
     }
 
-    @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+    @media only screen and (max-width: 768px) {
         .biography {
             background-image: none;
            .content-biography {
                .title-biography {
                    padding: 0px 10px;
+
+                   h1 {
+                       font-size: 30px;
+                   }
                }
 
                .born {
@@ -119,10 +123,8 @@ export default {
            .ampera-bridge {
                 margin-top: 20px;
                 object-fit: contain;
-                width: 100%;
+                width: 70%;
                 height: 100%;
-                opacity: 0;
-                transform: translateX(-30%);
             }
         }
     }
